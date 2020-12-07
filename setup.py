@@ -27,9 +27,9 @@ if __name__ == "__main__":
         zip_safe=False,
         install_requires=[
             'torch>=1.0.0',
-            'numpy==1.16.6',
-            'scipy==1.2.3',
-            'scikit-learn==0.20.4',
+            'numpy>=1.16.5',
+            'scipy>=1.2.1',
+            'scikit-learn>=0.20.3',
             'scikit-image==0.16.2',
             'opencv-python>=4.1.0,<=4.3.0',
             'networkx>=2.5',
