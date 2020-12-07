@@ -28,7 +28,7 @@ if __name__ == "__main__":
         install_requires=[
             'torch>=1.0.0',
             'numpy>=1.18.5',
-            'scipy>=1.3.0',
+            #'scipy>=1.3.0',
             'scikit-learn>=0.22.1',
             'scikit-image==0.16.2',
             'opencv-python>=4.1.0,<=4.3.0',
