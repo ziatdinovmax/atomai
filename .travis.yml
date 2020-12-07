@@ -15,10 +15,10 @@ os:
 cache: pip
 
 before_install:
-    - pip install -U pip
+    - pip3 install -U pip
 
 install:
-    - python setup.py install
+    - python3 setup.py install
 
 script:
     - pytest
