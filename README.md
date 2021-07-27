@@ -180,7 +180,7 @@ The information extracted by deep neural networks can be further used for statis
 imstack = aoi.stat.imlocal(nn_output, coords, window_size=32, coord_class=1)
 
 # Compute distortion "eigenvectors" with associated loading maps and plot results:
-pca_results = imstack.imblock_pca(n_components=4, plot_results=True)
+nmf_results = imstack.imblock_nmf(n_components=4, plot_results=True)
 ```
 
 For movies, one can extract trajectories of individual defects and calculate the transition probabilities between different classes:
